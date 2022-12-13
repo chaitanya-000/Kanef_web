@@ -170,7 +170,6 @@
 .ForShoppers {
   width: 100vw;
   height: 90vh;
-  border: 1px solid green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,6 +197,8 @@
   justify-content: space-around;
 }
 .ForShoppers_container_TextConatiner_heading {
+  font-weight: 300;
+
   font-size: 2.5rem;
 }
 .ForShoppers_container_TextConatiner_Subtext {
@@ -212,4 +213,52 @@
   color: #26ae60;
   font-weight: 600;
   background-color: white;
+}
+
+/* ForRetailers */
+.ForRetailers {
+  width: 100vw;
+  height: 90vh;
+  background-color: #f2f5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ForRetailers_container {
+  width: 90%;
+  height: 70%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ForRetailers_container_TextContainer {
+  width: 50%;
+  height: 60%;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ForRetailers_TextContainer_Heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.ForRetailers_TextContainer_subtext {
+  color: gray;
+  line-height: 25px;
+}
+.ForRetailers_container_Image {
+  width: 45%;
+  height: 95%;
+}
+
+.ForRetailers_container_TextConatiner_KnowMoreBtn {
+  width: 20%;
+  height: 14%;
+  border: 1px solid #26ae60;
+  border-radius: 10px;
+  color: #26ae60;
+  background-color: rgb(241, 241, 241);
+  font-weight: 500;
 }
