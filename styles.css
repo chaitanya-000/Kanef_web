@@ -130,7 +130,6 @@
   width: 50%;
   height: 90%;
   margin-left: 5%;
-  /* background-color: green; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -266,7 +265,6 @@
 .Questions {
   width: 100vw;
   height: 90vh;
-  border: 1px dotted blue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,7 +287,92 @@
   height: 76%;
 }
 .Questions_container_content {
-  border: 1px dotted red;
+  border: 1px dotted green;
   width: 50%;
   height: 80%;
+}
+.Subscribe {
+  width: 100vw;
+  height: 30vh;
+  background-color: #121f27;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: gray;
+}
+.Subscribe_container {
+  /* background-color: violet; */
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px dotted green; */
+}
+.Subscribe_container_TextContainer {
+  width: 45%;
+  height: 64%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px dotted blue; */
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.Subscribe_container_TextContainer_subtext {
+  line-height: 25px;
+}
+.Subscribe_container_TextContainer_FontImage {
+  width: 60%;
+  height: 16%;
+  /* background-color: red; */
+}
+.Subscribe_container_inputContainer {
+  width: 38%;
+  height: 25%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Subscribe_container_inputContainer_emailIcon {
+  width: 7%;
+  height: 60%;
+}
+
+.Subscribe_container_input {
+  width: 60%;
+  border: 2px solid yellow;
+  height: 100%;
+  border-radius: 15px;
+  padding-left: 23px;
+  font-size: 1.38rem;
+  outline: none;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  /* flex: 1; */
+}
+scribe_container_inputContainer_button_icon {
+  width: 0%;
+}
+.Subscribe_container_inputContainer_button {
+  height: 90%;
+  width: 24%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  display: flex;
+  color: white;
+  font-weight: 500;
+  align-items: center;
+  gap: 5%;
+  justify-content: center;
+  background-color: #26ae60;
+  background-color: #26ae60;
+
+  outline: none;
+  border: none;
 }
