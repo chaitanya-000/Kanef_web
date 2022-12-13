@@ -262,3 +262,34 @@
   background-color: rgb(241, 241, 241);
   font-weight: 500;
 }
+/* Questions */
+.Questions {
+  width: 100vw;
+  height: 90vh;
+  border: 1px dotted blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Questions_Heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.Questions_container {
+  width: 90%;
+  height: 70%;
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Questions_container_image {
+  width: 35%;
+  height: 76%;
+}
+.Questions_container_content {
+  border: 1px dotted red;
+  width: 50%;
+  height: 80%;
+}
