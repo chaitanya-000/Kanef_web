@@ -9,12 +9,10 @@
 .navbar-container {
   width: 100vw;
   height: 9vh;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 25%;
-  /* font-weigh; */
 }
 .navlink {
   font-weight: 500;
@@ -26,7 +24,6 @@
 }
 
 .navigationLinks-container {
-  /* border: 0.5px solid green; */
   width: 40%;
   display: flex;
   justify-content: space-evenly;
@@ -65,19 +62,16 @@
   line-height: 1.7rem;
 }
 .DownLoadApp-container {
-  /* border: 1px solid white; */
   height: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .downloadButtonContainer {
-  /* border: 1px solid violet; */
   height: 42%;
   width: 70%;
   display: flex;
   gap: 5%;
-  /* justify-content: space-between; */
 }
 .Buttons {
   width: 43%;
@@ -87,9 +81,8 @@
   font-weight: 600;
 }
 
-/* About Kenaf  */
+/*!About kenaf */
 .about_kenaf {
-  /* border: 1px solid red; */
   width: 100vw;
   height: 90vh;
   display: flex;
@@ -100,17 +93,14 @@
   width: 80%;
   height: 80%;
   display: flex;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
 }
 .plantImage {
-  /* border: 1px solid green; */
   width: 40%;
   height: 90%;
 }
 .about_kenaf_textContainer {
-  /* border: 1px dotted blue; */
   width: 50%;
   height: 100%;
   display: flex;
@@ -122,7 +112,55 @@
   font-weight: 250;
 }
 .about_kenaf_subtext {
-  /* border: 1px solid red; */
   line-height: 26px;
   color: #828282;
+}
+
+.HowItWorks {
+  width: 100vw;
+  height: 90vh;
+  background: #fff7ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.HowItWorks_Text {
+  width: 50%;
+  height: 90%;
+  margin-left: 5%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.HowItWorks_heading {
+  font-size: 2.5rem;
+  font-weight: 250;
+}
+.HowItWorks_Whitecontainer {
+  width: 80%;
+  height: 60%;
+  background: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.HowItWorks_Text_heading {
+  align-self: flex-start;
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+.HowItWorks_Text_subtext {
+  font-size: 1rem;
+  color: gray;
+  line-height: 23px;
+}
+.HowItWorks_Whitecontainer_image {
+  height: 130%;
+  position: relative;
+  bottom: 6%;
+  right: 3%;
 }
