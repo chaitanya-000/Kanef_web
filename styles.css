@@ -19,6 +19,11 @@
 .navlink {
   font-weight: 500;
 }
+.navlink:hover {
+  color: green;
+  cursor: pointer;
+  font-weight: 600;
+}
 
 .navigationLinks-container {
   /* border: 0.5px solid green; */
@@ -30,29 +35,26 @@
 }
 .HeroSection {
   width: 100vw;
-  height: 78vh;
+  height: 88vh;
   /* border: 0.1px solid red; */
   background-image: url("./images/HomePageHeroBanner.png");
   background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   background-position: center;
   justify-content: center;
 }
 .HeroSection_Text {
-  /* border: 1px solid red; */
   width: 40%;
-  height: 75%;
+  height: 70%;
   position: relative;
   left: 8%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .MainText {
   height: 40%;
-  /* border: 1px solid black; */
   font-style: normal;
   font-weight: 200;
   font-size: 2.8em;
@@ -71,15 +73,56 @@
 }
 .downloadButtonContainer {
   /* border: 1px solid violet; */
-  height: 48%;
+  height: 42%;
   width: 70%;
   display: flex;
   gap: 5%;
   /* justify-content: space-between; */
 }
 .Buttons {
-  width: 45%;
+  width: 43%;
+  height: 100%;
 }
 .download_text {
   font-weight: 600;
+}
+
+/* About Kenaf  */
+.about_kenaf {
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_kenaf_container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.plantImage {
+  /* border: 1px solid green; */
+  width: 40%;
+  height: 90%;
+}
+.about_kenaf_textContainer {
+  /* border: 1px dotted blue; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: 250;
+}
+.about_kenaf_subtext {
+  /* border: 1px solid red; */
+  line-height: 26px;
+  color: #828282;
 }
